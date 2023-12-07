@@ -1,0 +1,123 @@
+/* Style de base pour le corps */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    background-image: url("../img/background.jpg");
+    background-color: #e6f2ff; /* Couleur de fond bleu clair */
+}
+
+/* En-tête */
+header {
+    color: #f0f8ff; /* Couleur de texte bleu très clair */
+    padding: 15px;
+    background-color: #1e90ff; /* Couleur de fond bleu DodgerBlue */
+    border-bottom: 1px solid #87cefa; /* Bordure bleu ciel */
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Navigation */
+nav {
+    background-color: #004080; /* Couleur de fond bleu marine */
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 5px 10px;
+}
+
+nav a {
+    color: #add8e6; /* Couleur de lien bleu clair */
+    text-decoration: none;
+}
+
+/* Conteneur principal */
+.container {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+.welcome-message {
+    font-size: 3rem;
+    color: #1e90ff; /* Texte bleu DodgerBlue */
+}
+
+/* Styles pour les tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #87ceeb; /* Bordure bleu ciel */
+    padding: 8px;
+}
+
+table th {
+    background-color: #87cefa; /* Fond bleu ciel */
+}
+
+table tr:nth-child(even) {
+    background-color: #e0ffff; /* Fond bleu cyan très clair */
+}
+
+/* Formulaires */
+form {
+    background-color: #f0f8ff; /* Fond bleu très clair */
+    padding: 20px;
+    border: 1px solid #b0c4de; /* Bordure bleu acier clair */
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1e90ff; /* Texte bleu DodgerBlue */
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #b0c4de; /* Bordure bleu acier clair */
+    border-radius: 4px;
+}
+
+input[type="submit"], button {
+    background-color: #4682b4; /* Fond bleu acier */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #4169e1; /* Fond bleu royal */
+}
+
+/* Pied de page */
+footer {
+    background-color: #004080; /* Fond bleu marine */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
